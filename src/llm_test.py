@@ -84,11 +84,3 @@ while True:
                 "content": result,
             }
         )
-
-
-"""
- PS E:\work\ai-agent-learning> python src/llm_test.py
-ChatCompletionMessage(content='', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=[ChatCompletionMessageFunctionToolCall(id='call_00_ccv5WtfNFjqzwFEKSZEj9918', function=Function(arguments='{"city": "Singapore"}', name='get_weather'), type='function', index=0)], reasoning_content='The user wants the weather in Singapore. I should call the get_weather tool.')    
-ChatCompletionMessage(content='The weather in Singapore is currently **sunny**. ☀️', refusal=None, role='assistant', annotations=None, audio=None, function_call=None, tool_calls=None, reasoning_content='')
-
-"""
